@@ -27,7 +27,7 @@ jobs:
       run: ./"App Source Code/gradlew" tasks
       
     - name: Build  
-      run: ./"App Source Code/gradlew" build   
+      run: ./"App Source Code/gradlew" assembleRelease   
 
 
     - name: Upload APK
