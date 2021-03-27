@@ -24,10 +24,14 @@ jobs:
       run: chmod +x "App Source Code/gradlew"
 
     - name: Task
-      run: ./"App Source Code/gradlew" tasks  
-
-    - name: Clean  
-      run: ./"App Source Code/gradlew" clean   
-
+      run: ./"App Source Code/gradlew" tasks
+      
     - name: Build  
       run: ./"App Source Code/gradlew" build   
+
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v1
+      with:
+          name: app
+          path: "App Source Code/app"
