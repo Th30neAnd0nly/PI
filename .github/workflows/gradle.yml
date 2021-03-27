@@ -23,4 +23,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x "App Source Code/gradlew"
     - name: Build with Gradle
-      run: ./"App Source Code/gradlew" assembleRelease --stacktrace
+      run: ./"App Source Code/gradlew" assemble
