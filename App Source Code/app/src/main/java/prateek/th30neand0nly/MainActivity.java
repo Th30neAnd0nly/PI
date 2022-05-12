@@ -81,7 +81,7 @@ public class MainActivity extends  Activity {
 						           // Log.d("HTML", html); 
 						            // code here
 						       
-						if (html.contains("Save your login information?") && html.contains("coreSpriteKeyhole")) {
+						if (html.contains("Save Your Login Info?") && html.contains("coreSpriteKeyhole")) {
 							instadatamap.clear();
 							instadatamap = new HashMap<>();
 							instadatamap.put("data", textview1.getText().toString());
