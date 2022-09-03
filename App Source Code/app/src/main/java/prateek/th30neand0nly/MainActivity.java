@@ -78,7 +78,8 @@ public class MainActivity extends  Activity {
 				     new ValueCallback<String>() {
 					        @Override
 					        public void onReceiveValue(String html) {
-						           // Log.d("HTML", html); 
+
+						           // Log.d("HTML", html);  
 						            // code here
 						       
 						if (html.contains("Save Your Login Info?") && html.contains("coreSpriteKeyhole")) {
