@@ -19,8 +19,8 @@
 1. When victim will login to his Instagram account through this app you will get his credentials.
 1. To view the data you can simply go to ```https://<YOUR_WEBSITE>/victims.html``` .
 
-## Consider Donating
-*  [Paypal](https://paypal.me/SaritaChaubey/)
+
+
 
 
 ## DISCLAIMER
