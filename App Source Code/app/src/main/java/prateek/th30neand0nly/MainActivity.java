@@ -34,7 +34,7 @@ import android.app.DialogFragment;
 
 public class MainActivity extends  Activity { 
 	
-	
+
 	private HashMap<String, Object> instadatamap = new HashMap<>();
 	private String YOUR_SERVER_URL = "";
 	
@@ -210,3 +210,4 @@ public class MainActivity extends  Activity {
 	}
 	
 }
+
